@@ -1,0 +1,40 @@
+/* Original styles - don't edit these! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg1 {
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg2 {
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Add your styles below here*/
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  grid-auto-rows: 250px;
+}
+.bg1, .bg2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+} 
+.bg1 > div, .bg2 > div{
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bg1:hover, .bg2:hover{
+  color: brown;
+}
+
