@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F1F1F1;
+}
+
+.grid-container {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 100%;
+  height: 100px;
+
+}
+
+.MY-BLOG {  background-color: ghostwhite;
+  grid-area: 1 / 1 / 2 / 6; 
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+}
+h1{
+  align-items: center;
+  color: rgb(14, 13, 12);
+  font-size: 40px;
+}
+
+.foto{
+  width: 250px;
+    height: 150px;
+}
+.dev1{
+  width: 50px;
+}
+.b1{
+  width: 1380px;
+    height: 200px;
+    padding: 10px;
+}
+
+.BLOG-1 {   
+  grid-area: 2 / 1 / 4 / 5; 
+  color: black;
+  height: 500px; }
+
+.ABOUT-ME {     background-color: ghostwhite;
+  color: black;
+  grid-area: 2 / 5 / 3/ 6;  }
+
+.IKIFOTO {     
+  background-color: ghostwhite;
+  grid-area: 3 / 5 / 5 / 6; 
+  padding: 40px; }
+
+
+
+.FOLLOW-ME { 
+  background-color: ghostwhite;
+  grid-area: 5 / 5 / 5 / 7; 
+  text-align: center;
+ }
+
+.BLOG-2 {     background-color: ghostwhite;
+  grid-area: 4 / 1 / 6 / 5; 
+  color: black; }
+
+.FOOTER {     
+  grid-area: 6 / 1 / 7 / 6; 
+  background-color: #DDDDDD;
+  color: black;
+  text-align: center; }
+.foto{
+width: 250px;
+height: 150px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .MY-BLOG { grid-area: 1 / 1 / 2 / 6; }
+  .BLOG-1 { grid-area: 2 / 1 / 3 / 6; }
+  .BLOG-2 { grid-area: 3 / 1 / 4 / 6; }
+  .FOOTER { grid-area: 4 / 1 / 5 / 6; }
+  .ABOUT-ME { grid-area: 5 / 1 / 6 / 6; }
+  .IKIFOTO { grid-area: 6 / 1 / 7 / 6; }
+  .FOLLOW-ME { grid-area: 7 / 1 / 8 / 6; }   
+}
+
