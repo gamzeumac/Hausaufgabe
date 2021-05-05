@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav,
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+  }
+  
+  li {
+    border: 1px solid black;
+    width: 100vw;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 10px;
+    margin: 0 1px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 5px 5px 7px black;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    top: 16vh;
+    position: fixed;
+    color: rgba(255, 0, 0, 1);
+  }
+  
+  header {
+    background-image: url("./city.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+    place-items: center;
+  }
+  
+  .main {
+    margin: 2rem auto 0;
+    width: 95vw;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    position: relative;
+    background-color: #fff;
+  }
