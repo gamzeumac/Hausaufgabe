@@ -1,0 +1,72 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px 5px;
+    grid-template-areas:
+        "header header header header navbar navbar navbar"
+        "main main main main main aside-1 aside-1"
+        "main main main main main aside-1 aside-1"
+        "aside-2 aside-2 section section section aside-1 aside-1"
+        "footer footer footer footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(214, 214, 93);
+    display: flex;
+    
+}
+
+.navbar {
+    grid-area: navbar;
+    background-color: rgb(202, 162, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: purple;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+}
+.ul li a {
+    padding: 90px;
+}
+
+.main {
+    grid-area: main;
+    background-color: rgba(242, 219, 174, 255);
+    border-radius: 5px;
+   
+
+}
+
+.aside-2 {
+    grid-area: aside-2;
+    background-color: lawngreen;
+    border-radius: 10px;
+
+   
+}
+
+.section {
+    grid-area: section;
+    background-color: #ec0368;;
+    border-radius: 10px;
+    
+}
+
+.aside-1 {
+    grid-area: aside-1;
+    background-color: lawngreen;
+    border-radius: 10px;
+   
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(204, 196, 196);
+    border-radius: 10px;
+    
+}
