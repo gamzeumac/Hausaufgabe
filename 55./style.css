@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(88, 82, 82);
+}
+
+main{
+    margin: 10%
+}
+
+h1{
+  
+    color: rgb(98, 36, 139);
+    
+}
+
+.avatar{
+    width: 2rem;
+    border:1px solid rgb(235, 228, 228);
+    border-radius: 50%;
+}
+.average{
+   width: 1.2rem;
+   padding-right: 1rem;
+}
+
+th, td{
+    padding: 20px;
+}
+
+.plus{
+    font-size: 2rem;
+   
+}
+.point{
+    font-size: 2rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+td{
+    border-top: 1px solid rgb(133, 128, 128);
+    
+}
+
+hr{
+    border: solid 2px rgb(209, 204, 204);
+    width: 1120px;
+}
+
+.line:hover{
+    background-color: rgb(252, 247, 247);
+}
+
+
+
+.point {
+    position: relative;   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e4e0e0;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px ;
+    z-index: 1;  
+    right: 50%;
+  }
+  
+  .point:hover .dropdown-content {
+    display: block;
+  }
